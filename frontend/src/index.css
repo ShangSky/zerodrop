@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+#header .joinRoom {
+  cursor: pointer;
+}
+
+#container {
+  min-width: 320px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+}
+
+.itemAction {
+  color: #000;
+  cursor: pointer;
+}
+
+.upload {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
